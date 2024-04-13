@@ -44,3 +44,52 @@ cargo new file
 git add src/main.rs
 git commit -m "Änderung"
 git push 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Hier sind einige der wichtigsten Git-Befehle mit einer kurzen Beschreibung:
+
+- git init:
+Initialisiert ein neues Git-Repository in einem Verzeichnis. Dadurch wird ein .git-Verzeichnis erstellt, das für das Versionsmanagement verwendet wird.
+
+- git clone URL<repository-url>:
+Klont ein vorhandenes Git-Repository von einer Remote-URL und erstellt eine lokale Kopie des Repositories auf Ihrem Computer.
+
+- git add file<file>:
+Fügt eine Datei oder Änderungen an einer Datei zum Index (Staging-Bereich) hinzu, um sie für den nächsten Commit vorzubereiten.
+
+- git commit -m "<commit-message>":
+Committet die im Index befindlichen Änderungen in das lokale Repository. Die Nachricht "msg"<commit-message> beschreibt die durchgeführten Änderungen.
+
+- git status:
+Zeigt den Status des Arbeitsverzeichnisses und des Index an. Dies umfasst Informationen über unversionierte, geänderte oder zum Commit vorgemerkte Dateien.
+
+- git push:
+Überträgt lokale Commits zum Remote-Repository, sofern es mit einem Upstream-Branch verknüpft ist. Es wird normalerweise verwendet, um lokale Änderungen mit anderen zu teilen.
+
+- git pull:
+Holt Änderungen vom Remote-Repository und fusioniert sie mit dem lokalen Branch. Es ist eine Kombination aus git fetch (Herunterladen der Änderungen) und git merge (Zusammenführen der Änderungen).
+
+- git fetch:
+Holt Änderungen vom Remote-Repository, lädt sie jedoch nicht automatisch in den Arbeitsbereich. Es ermöglicht Ihnen, die neuesten Änderungen zu sehen, ohne sie sofort zu integrieren.
+
+- git merge "branch/main"<branch>:
+Fusioniert den angegebenen Branch in den aktuellen Branch. Dies wird verwendet, um Änderungen von einem anderen Branch in den aktuellen Branch zu übernehmen.
+
+- git branch:
+Zeigt eine Liste der vorhandenen Branches an oder erstellt einen neuen Branch, wenn ein Name angegeben ist. Es wird auch verwendet, um zwischen Branches zu wechseln.
+
+- git checkout "branch/main"<branch>:
+Wechselt zwischen verschiedenen Branches. Es kann auch verwendet werden, um eine bestimmte Datei aus einem anderen Branch wiederherzustellen.
+
+- git log:
+Zeigt eine Liste der Commits im aktuellen Branch an, einschließlich Informationen wie Autor, Datum und Commit-Nachricht.
+
+Diese Befehle bilden eine grundlegende Grundlage für die Verwendung von Git und sind entscheidend für das Arbeiten mit einem Git-Repository.
+
+
+
+
+

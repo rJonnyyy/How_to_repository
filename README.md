@@ -19,7 +19,7 @@ cargo new file
 
 2. git bash in neuem rust ordner projekt öffnen 
 
-* git remote add origin <HTTPS>
+* git remote add origin URL <HTTPS>
 --> mögliche Fehler: git remote -v >> git remote remove origin 
 
 * git push -u origin main (Standardmäßig auf main pushen)

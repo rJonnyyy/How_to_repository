@@ -22,6 +22,10 @@ cargo new file
 * git remote add origin URL <HTTPS>
 --> mögliche Fehler: git remote -v >> git remote remove origin 
 
+* git add .
+
+* git commit -m "first commit"
+
 * git push -u origin main (Standardmäßig auf main pushen)
 --> jetzt ist sind alle rust files im github repo 
 

@@ -22,7 +22,7 @@ cargo new file
 * git remote add origin URL <HTTPS>
 --> mögliche Fehler: git remote -v >> git remote remove origin 
 
-* git add .
+* git add . bzw eher git add -A / git add --all
 
 * git commit -m "first commit"
 

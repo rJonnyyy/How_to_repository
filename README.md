@@ -2,8 +2,8 @@ großes kleines git tutorial:
 
 für Rust:
 
-cargo new file 
-* .git versteckter Ordner wird bereits automatisch mit cargo new file generiert 
+cargo new <filename>
+* .git versteckter Ordner wird bereits automatisch mit cargo new <filename> generiert 
 
 * git init (eigentlich muss im Verzeichnis wo das Repo erstellt werden soll cmd >> git init >> git add . (all) gemacht werden)
 * git add . (vll auch nicht)
